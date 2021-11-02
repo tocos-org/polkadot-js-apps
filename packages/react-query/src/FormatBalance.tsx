@@ -28,8 +28,8 @@ interface Props {
 }
 
 // for million, 2 * 3-grouping + comma
-const M_LENGTH = 6 + 1;
-const K_LENGTH = 3 + 1;
+const M_LENGTH = Infinity;
+const K_LENGTH = Infinity;
 
 type LabelPost = string | React.ReactNode
 
